@@ -2,8 +2,14 @@
 > - All significant changes to this project will be documented here.
 ---
 
-> [1.0.0]
+> [1.5.0]
+>
+> - Fixing 'module.prop', description that has piled up when it reboots several times.
+> - Simplified the code in `service.sh` for compatible modules.
+---
 
+> [1.0.0]
+>
 > - Initial release.
 > - Version `1.0.0` uses Cloudflare DNS `1.1.1.1` and `1.0.0.1
 > - Implemented root detection and version information fetching.

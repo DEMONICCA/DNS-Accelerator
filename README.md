@@ -8,16 +8,9 @@
 > [!IMPORTANT]
 > Features 🚀:
 > 1. Network Optimization ✔️
->   - Set sysctl parameters for network optimization, including TCP settings (such as BBR, buffers, timeouts, etc.).
->   - Rewrite `sysctl.conf` and `resolv.conf` configuration files with optimal settings.
-> 2. DNS Settings. ✔️
->   - Version `1.0.0` uses Cloudflare DNS `1.1.1.1` and `1.0.0.1`.
->   - Automatically set DNS properties and add iptables rules to redirect DNS traffic.
-> 3. TX Power Increase. ✔️
->   - Increases the transmission power (TX power) for the active network interface.
-> 4. Connectivity Maintenance. ✔️
->   - Flush the DNS cache periodically to maintain connection stability.
->   - Clear cache such as package cache, dalvik cache, and system cache to maintain device performance.
+> 2. Increases the transmission power (TX power) for the active network interface. ✔️
+> 3. Flush the DNS cache periodically to maintain connection stability. ✔️
+> 4. And many more network optimizations. ✔️
 <hr/>
 
 > [!TIP]
