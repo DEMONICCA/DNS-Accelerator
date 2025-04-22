@@ -7,10 +7,16 @@
 
 > [!IMPORTANT]
 > Features 🚀:
-> 1. Network Optimization ✔️
-> 2. Increases the transmission power (TX power) for the active network interface. ✔️
-> 3. Flush the DNS cache periodically to maintain connection stability. ✔️
-> 4. And many more network optimizations. ✔️
+> 1. Automatic detection and configuration of root methods (Magisk, KernelSU, APatch). ✔️
+> 2. Smart DNS configuration with fallback (`sqlite3`, `content`, `settings`, `setprop`). ✔️
+> 3. System-wide DNS override using Cloudflare DNS `1.1.1.1` and `1.0.0.1`. ✔️
+> 4. Network Optimization through kernel `sysctl.conf` tuning (BBR, TCP tweaks). ✔️
+> 5. Automatic iptables rules to redirect DNS traffic and enhance security. ✔️
+> 6. TX power booster for supported wireless interfaces. ✔️
+> 7. SELinux temporarily adjusted for system changes, restored after. ✔️
+> 8. Automatic `module.prop` update based on Android version and root info. ✔️
+> 9. DNS cache flushing using system tools (`ndc`, `svc`) without background loops. ✔️
+> 10. Optimized and safe permission/ownership management for system files. ✔️
 <hr/>
 
 > [!TIP]
